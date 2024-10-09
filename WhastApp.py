@@ -1,14 +1,14 @@
 import pyautogui as pg
 import time
 
-msjs = int(input("Número de mensajes: "))
-ms = "" <---#Escribe el mensaje que quieres enviar
+num = int(input("Número de mensajes: "))
+msj = "" <---#Escribe el mensaje que quieres enviar
 
 time.sleep(3)
 
-for i in range(msjs):
+for i in range(num):
    
-    pg.write(ms)
-    #pg.write(msj)
+    pg.write(msj)
+
     
     pg.press('enter')
