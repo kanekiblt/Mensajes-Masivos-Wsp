@@ -2,7 +2,7 @@ import pyautogui as pg
 import time
 
 num = int(input("Número de mensajes: "))
-msj = "goooooo"
+msj = "Hermana"
 
 time.sleep(3)
 
